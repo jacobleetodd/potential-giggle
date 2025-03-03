@@ -7,4 +7,4 @@
 `npm run storybook`
 
 ## TTD
-Default CanClearCount test will fail, feature needs to be implemented
+Default and CanClearCount tests will fail, feature needs to be implemented
