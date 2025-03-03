@@ -1,15 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { FC } from 'react'
 import { Landing } from './pages/Landing'
+import { Stack } from '@mui/material'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+const App: FC = () => (
+  <Stack alignItems="center" height="100vh" justifyContent="center" width="100vw">
     <Landing />
-  )
-}
+  </Stack>
+)
 
 export default App
